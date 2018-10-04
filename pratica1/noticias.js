@@ -1,0 +1,1 @@
+console.log("\nteste NodeJS\n");
