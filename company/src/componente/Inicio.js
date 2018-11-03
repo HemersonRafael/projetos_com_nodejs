@@ -4,7 +4,7 @@ const Inicio = props => {
     return (
         <div>
             {/* Container (About Section) */}
-            <div id='about' className='jumbotron'>
+            <div id='about' className='container-fluid'>
                 <div className='row'>
                     <div className='col-sm-8'>
                         <h2>About Company Page</h2><br />
