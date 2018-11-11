@@ -46,6 +46,6 @@ const Servicos = props => {
             </div >
         </div>
 
-    )
+    );
 }
 export default Servicos

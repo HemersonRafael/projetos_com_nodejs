@@ -32,6 +32,6 @@ const Inicio = props => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 export default Inicio
