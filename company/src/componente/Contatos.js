@@ -32,6 +32,6 @@ const Contatos = props => {
                 </div>
             </div >
         </div>
-    )
+    );
 }
 export default Contatos

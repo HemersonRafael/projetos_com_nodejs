@@ -7,6 +7,7 @@ import Servicos from'./componente/Servicos'
 import Portfolio from './componente/Portfolio'
 import Precos from './componente/Precos'
 import Contatos from './componente/Contatos'
+import Admin from './componente/admin/Admin';
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
           <Route path='/' exact component={Inicio}/>
           <Route path='/servicos' component={Servicos}/>
           <Route path='/portfolio' component={Portfolio}/>
-          <Route path='/Precos' component={Precos}/>
+          <Route path='/precos' component={Precos}/>
           <Route path='/contatos' component={Contatos}/>
+          <Route path='/admin' component={Admin}/>
           <Rodape/>
         </div>
       </BrowserRouter>
