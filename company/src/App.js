@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
-import Rodape from './componente/Rodape'
-import Cabecalho from './componente/Cabecalho'
-import Inicio from './componente/Inicio'
-import Servicos from'./componente/Servicos'
-import Portfolio from './componente/Portfolio'
-import Precos from './componente/Precos'
-import Contatos from './componente/Contatos'
-import Admin from './componente/admin/Admin';
+import Rodape from './components/Rodape'
+import Cabecalho from './components/Cabecalho'
+import Inicio from './components/Inicio'
+import Servicos from'./components/Servicos'
+import Portfolio from './components/Portfolio'
+import Precos from './components/Precos'
+import Contatos from './components/Contatos'
+import Admin from './components/admin/Admin';
 
 class App extends Component {
   render() {
